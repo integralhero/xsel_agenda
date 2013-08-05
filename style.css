@@ -1,0 +1,41 @@
+#week1, #week2, #week3, #week4 {
+	width: 800px;
+	text-align: center;
+	margin: 0 auto;
+}
+#week1 table, #week2 table, #week3 table, #week4 table {
+	*border-collapse: collapse; /* IE7 and lower */
+    border: none;
+    border-spacing: 9px !important;
+}
+td {
+	background-color: rgba(204,204,204,0.4);
+	border: none;
+	padding: 20px;
+}
+th {
+	background-color:rgba(165,162,182,0.8);
+	color: white;
+	border: none;
+	padding: 15px;
+}
+th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+img {
+	padding: 5px;
+}

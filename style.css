@@ -1,11 +1,14 @@
-@import url(http://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
 
-h1 {
-	font-family: 'IM Fell Double Pica' serif;
+@import url(http://fonts.googleapis.com/css?family=Caudex);
+
+table, h1 {
+	font-family: 'Caudex', serif;
 }
+
+
 #week1, #week2, #week3, #week4 {
 	width: 800px;
-	text-align: center;
+	text-align: left;
 	margin: 0 auto;
 }
 #week1 table, #week2 table, #week3 table, #week4 table {
@@ -42,5 +45,5 @@ th:only-child{
     border-radius: 6px 6px 0 0;
 }
 img {
-	padding: 5px;
+	padding: 10px;
 }
